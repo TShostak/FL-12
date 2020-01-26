@@ -1,0 +1,28 @@
+/* Todo: your styles go here*/
+ul {
+	list-style-type: none;
+}
+i.material-icons {
+	display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #EDBC0B;
+}
+i.file_image {
+	color: #BBBBBB;
+}
+.file span,
+.folder span {
+	display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.is-closed {
+	display: none;
+}
+.is-closed.is-open {
+	display: block;
+}
+.message_empty {
+	font-style: italic;
+}
